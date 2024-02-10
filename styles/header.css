@@ -1,0 +1,25 @@
+:root {
+  --off-black: #252422;
+  --off-white: #F4F4F4;
+}
+
+.menu-links-container {
+  display: flex;
+  column-gap: 60px;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 100px;
+  z-index: 100;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.logo {
+  fill: red;
+}

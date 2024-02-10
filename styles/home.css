@@ -1,0 +1,30 @@
+:root {
+  --off-black: #252422;
+  --off-white: #F4F4F4;
+}
+
+.basic-info-wrapper{
+  display: flex;
+  column-gap: 60px;
+  padding: 60px 0px;
+  border-top-color: var(--off-black);
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-bottom-color: var(--off-black);
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+}
+
+.basic-info-left {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+}
+
+.basic-info-image {
+  width: 300px;
+}
+
+.inline-h1-image {
+  height: 70px;
+}
