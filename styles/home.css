@@ -42,9 +42,6 @@
   flex-direction: row;
   justify-content: space-between;
   column-gap: 30px;
-  border-bottom-color: var(--off-black);
-  border-bottom-style: solid;
-  border-bottom-width: 1px;
 }
 
 .project-tile-container {
