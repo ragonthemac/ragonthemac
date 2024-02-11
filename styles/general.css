@@ -3,6 +3,11 @@
   --off-white: #F4F4F4;
 }
 
+html {
+  scroll-behavior: smooth;
+  scroll-padding: 139px;
+}
+
 .showreel-custom-cursor {
   cursor: url('../assets/showreel-custom-cursor-l.svg'), auto;
 }
