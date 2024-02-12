@@ -20,16 +20,23 @@ footer {
 }
 
 .footer-info {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 60px;
+  justify-content: center;
   column-gap: 100px;
 }
+
+    @media (max-width: 1030px) {
+      .footer-info {
+        grid-template-columns: 1fr;
+      }
+    }
 
 .footer-contact {
   display: flex;
   flex-direction: column;
   row-gap: 16px;
-  width: 500px;
 }
 
 .footer-nav-link {
