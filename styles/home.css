@@ -31,11 +31,36 @@
   row-gap: 80px;
   margin-top: 280px;
   margin-bottom: 120px;
+  width: 700px
 }
+
+    @media (max-width: 768px) {
+      .h1-text-lockup {
+        width: 400px
+      }
+    }
+
+    @media (max-width: 480px) {
+      .h1-text-lockup {
+        width: 300px
+      }
+    }
 
 .inline-h1-image {
   height: 70px;
 }
+
+    @media (max-width: 900px) {
+      .inline-h1-image {
+        height: 54px;
+      }
+    }
+
+    @media (max-width: 768px) {
+      .inline-h1-image {
+        height: 40px;
+      }
+    }
 
 .project-tile-wrapper {
   display: grid;

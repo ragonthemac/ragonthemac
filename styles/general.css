@@ -44,6 +44,8 @@ body {
   }
 }
 
+/* 480px, 768px, 1024px, and 1280px */
+
 p {
   font-size: 16px;
   margin: 0;
@@ -58,6 +60,29 @@ h1 {
   line-height: 86px;
   margin: 0;
 }
+
+/* 480px, 768px, 1024px, and 1280px */
+
+    @media (max-width: 900px) {
+      h1 {
+        font-size: 70px;
+        line-height: 68px;
+      }
+    }
+
+    @media (max-width: 768px) {
+      h1 {
+        font-size: 50px;
+        line-height: 48px;
+      }
+    }
+
+    @media (max-width: 550px) {
+      h1 {
+        font-size: 38px;
+        line-height: 36px;
+      }
+    }
 
 h2 {
   font-size: 34px; 
