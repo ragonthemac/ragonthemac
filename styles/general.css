@@ -89,6 +89,26 @@ h2 {
   margin: 0;
 }
 
+    /* 480px, 768px, 1024px, and 1280px */
+
+    @media (max-width: 900px) {
+      h2 {
+        font-size: 30px;
+      }
+    }
+
+    @media (max-width: 768px) {
+      h2 {
+        font-size: 28px;
+      }
+    }
+
+    @media (max-width: 550px) {
+      h2 {
+        font-size: 26px;
+      }
+    }
+
 h3 {
   font-size: 26px; 
   margin: 0;

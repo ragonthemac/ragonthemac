@@ -4,8 +4,10 @@
 }
 
 .basic-info-wrapper{
-  display: flex;
-  column-gap: 60px;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-gap: 60px;
+  justify-content: center;
   padding: 60px 0px;
   border-top-color: var(--off-black);
   border-top-style: solid;
@@ -13,6 +15,17 @@
   border-bottom-color: var(--off-black);
   border-bottom-style: solid;
   border-bottom-width: 1px;
+}
+
+    @media (max-width: 900px) {
+      .basic-info-wrapper {
+        grid-template-columns: 1fr;
+      }
+    }
+
+.basic-info-wrapper img {
+  max-width: 100%; /* Ensure images don't exceed container width */
+  height: auto; /* Maintain aspect ratio */
 }
 
 .basic-info-left {
