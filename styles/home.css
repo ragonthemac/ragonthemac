@@ -38,11 +38,17 @@
 }
 
 .project-tile-wrapper {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  column-gap: 30px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 30px;
+  justify-content: center;
 }
+
+.project-tile-wrapper img {
+  max-width: 100%; /* Ensure images don't exceed container width */
+  height: auto; /* Maintain aspect ratio */
+}
+
 
 .project-tile-container {
   display: flex;
