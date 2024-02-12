@@ -24,6 +24,12 @@ body {
   margin: 0px 100px;
 }
 
+@media (max-width: 600px) {
+  .container {
+    margin: 0 10px; /* Margin for widths up to 600px */
+  }
+}
+
 p {
   font-size: 16px;
   margin: 0;
