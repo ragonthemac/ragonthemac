@@ -195,6 +195,18 @@ nav a {
   text-decoration: none;
 }
 
+@media (max-width: 650px) {
+  .nav a {
+    font-size: 100px;
+  }
+}
+
+@media (max-width: 400px) {
+  .nav a {
+    font-size: 90px;
+  }
+}
+
 .input-check2:checked + label + .nav .nav-wrapper nav a {
   opacity: 0.9;
   transform: scale(1); 
