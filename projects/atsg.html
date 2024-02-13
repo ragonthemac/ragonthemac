@@ -42,9 +42,9 @@
   </head>
   <body style="margin-top: 80px;">
 <!-- menu/nav section -->
-    <header class="menu">
+    <header class="menu container">
       <a href="/">
-        <img class="logo" src="../assets/ragonthemac-full-logo.svg">
+        <img href="/" class="logo" src="assets/ragonthemac-full-logo.svg">
       </a>
       <div class="menu-links-container">
         <a href="/" class="nav-link">
@@ -63,10 +63,29 @@
           contact
         </a>
       </div>
-      <div style="display: inline-block;">
-        <a href="/contact" class="main-btn">
-            Let's Talk
-      </a>
+      <div class="menu-button-lockup">
+        <a href="/contact" class="header-btn">
+          Let's Talk
+        </a>
+        <div class="hamburger-menu">
+          <input type="checkbox" class="input-check2" id="input-check2" hidden/>
+          <label class="bars-container bars-container2" for="input-check2">
+            <span class="bar bar1"></span>
+            <span class="bar bar2"></span>
+            <span class="bar bar3"></span>
+          </label>
+          <div class="nav">
+            <div class="nav-wrapper">
+                <nav>
+                  <a href="/">Home</a>
+                  <a href="/about">About</a>
+                  <a href="/work">work</a>
+                  <a href="/contact">Contact</a>
+                </nav>
+            </div>
+          </div>
+        </div>
+        </div>
       </div>
     </header>
 <!-- hero-text -->
