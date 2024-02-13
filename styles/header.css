@@ -8,11 +8,17 @@
   column-gap: 60px;
 }
 
+@media (max-width: 900px) {
+  .menu-links-container {
+    display: none;
+  }
+}
+
 .menu {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 30px 100px;
+  padding: 30px 0px;
   z-index: 100;
   position: fixed;
   top: 0;
