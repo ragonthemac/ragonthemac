@@ -14,6 +14,12 @@
   }
 }
 
+@media (max-width: 900px) {
+  .header-btn {
+    display: none;
+  }
+}
+
 .menu {
   display: flex;
   justify-content: space-between;
@@ -28,4 +34,21 @@
 
 .logo {
   fill: red;
+}
+
+.header-btn {
+  border: none;
+  background-color: var(--off-black);
+  font-family: 'Inter', sans-serif;
+  text-transform: uppercase;
+  font-size: 12px;
+  transition: 0.3s;
+  color: var(--off-white);
+  padding: 6px 20px;
+  border-radius: 40px;
+  text-decoration: none;
+}
+
+.header-btn:hover {
+  background-color: grey;
 }
