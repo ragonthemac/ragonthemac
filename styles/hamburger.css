@@ -207,7 +207,7 @@ nav a {
   }
 }
 
-@media (max-width: 450px) {
+@media (max-width: 480px) {
   .nav a {
     font-size: 80px;
   }
@@ -216,6 +216,12 @@ nav a {
 @media (max-width: 400px) {
   .nav a {
     font-size: 68px;
+  }
+}
+
+@media (max-width: 360px) {
+  .nav a {
+    font-size: 60px;
   }
 }
 
