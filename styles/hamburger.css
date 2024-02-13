@@ -201,9 +201,21 @@ nav a {
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 550px) {
   .nav a {
     font-size: 90px;
+  }
+}
+
+@media (max-width: 450px) {
+  .nav a {
+    font-size: 80px;
+  }
+}
+
+@media (max-width: 400px) {
+  .nav a {
+    font-size: 68px;
   }
 }
 
