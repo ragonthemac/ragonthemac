@@ -57,13 +57,6 @@
   height: auto; /* Maintain aspect ratio */
 }
 
-
-.sm-txt-collection {
-  display: flex;
-  flex-direction: row;
-  column-gap: 80px;
-}
-
 .work-h1-hero {
   display: flex;
   flex-direction: column;
