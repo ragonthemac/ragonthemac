@@ -34,6 +34,17 @@
   row-gap: 30px;
 }
 
+.basic-info-right {
+  display: flex;
+  justify-content: end;
+}
+
+    @media (max-width: 900px) {
+      .basic-info-right {
+        justify-content: start;
+      }
+    }
+
 .basic-info-image {
   width: 300px;
 }
@@ -60,6 +71,8 @@
       }
     }
 
+    
+
 .inline-h1-image {
   height: 70px;
 }
@@ -73,6 +86,12 @@
     @media (max-width: 768px) {
       .inline-h1-image {
         height: 40px;
+      }
+    }
+
+    @media (max-width: 550px) {
+      .inline-h1-image {
+        height: 30px;
       }
     }
 

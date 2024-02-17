@@ -16,14 +16,28 @@
   display: flex;
   justify-content: center;
   margin: 0 auto;
-  margin-top: -140px;
+  margin-top: -40px;
   aspect-ratio: 9 / 16;
   max-height: 900px;
+  max-width: 100%;
 }
 
 @media (max-width: 900px) {
   .project-hero-image {
     max-height: 600px;
+    margin-top: -30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .project-hero-image {
+    margin-top: -20px;
+  }
+}
+
+@media (max-width: 550px) {
+  .project-hero-image {
+    margin-top: -14px;
   }
 }
 

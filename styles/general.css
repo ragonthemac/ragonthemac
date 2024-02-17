@@ -140,12 +140,13 @@ h4 {
   background-color: var(--off-black);
   font-family: 'Inter', sans-serif;
   text-transform: uppercase;
-  font-size: 12px;
+  font-size: 16px;
   transition: 0.3s;
   color: var(--off-white);
-  padding: 6px 20px;
+  padding: 8px 24px;
   border-radius: 40px;
   text-decoration: none;
+  width: fit-content
 }
 
 .main-btn:hover {
@@ -157,12 +158,13 @@ h4 {
   background-color: var(--off-white);
   font-family: 'Inter', sans-serif;
   text-transform: uppercase;
-  font-size: 12px;
+  font-size: 16px;
   transition: 0.3s;
   color: var(--off-black);
-  padding: 6px 20px;
+  padding: 8px 24px;
   border-radius: 40px;
   text-decoration: none;
+  width: fit-content
 }
 
 .main-btn-invert:hover {
