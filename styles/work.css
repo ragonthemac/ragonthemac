@@ -74,6 +74,12 @@
   align-items: start;
 }
 
+@media (max-width: 768px) {
+  .work-inline-h1 {
+    margin-top: 120px;
+  }
+}
+
 .sm-project-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
