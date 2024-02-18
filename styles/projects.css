@@ -19,7 +19,7 @@
   margin-top: -40px;
   aspect-ratio: 9 / 16;
   max-height: 900px;
-  max-width: 80%;
+  max-width: 20%;
 }
 
 @media (max-width: 900px) {
