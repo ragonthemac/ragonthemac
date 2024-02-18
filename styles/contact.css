@@ -1,5 +1,13 @@
 .contact-image {
-  height: 60vw;
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+
+@media (max-width: 600px) {
+  .contact-image{
+    display: none;
+  }
 }
 
 .contact-logo {
@@ -40,20 +48,39 @@
 }
 
 .contact-info-collection {
-  display: flex;
-  flex-direction: row;
-  column-gap: 140px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr 2fr);
+  column-gap: 30px;
 }
 
 .contact-content-wrapper {
   display: flex;
   flex-direction: column;
   row-gap: 100px;
+  margin-top: 80px;
+}
+
+@media (max-width: 600px) {
+  .contact-content-wrapper{
+    margin-left: 60px;
+  }
+}
+
+@media (max-width: 580px) {
+  .contact-content-wrapper{
+    margin-left: 16px;
+  }
 }
 
 .contact-hero {
-  display: flex;
-  flex-direction: row;
-  column-gap: 100px;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr 2fr);
   align-items: center;
+  column-gap: 60px;
+}
+
+@media (max-width: 600px) {
+  .contact-hero{
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
