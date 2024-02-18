@@ -24,7 +24,6 @@
 
 @media (max-width: 900px) {
   .project-hero-image {
-    max-height: 600px;
     margin-top: -30px;
   }
 }
