@@ -21,16 +21,20 @@
 }
 
 .wayfinding-wrapper {
-  width: 200px;
-  padding: 20px 0px;
-  margin: 0;
+  display: inline-block;
 }
 
 .wayfinding-container {
-  display: flex;
-  column-gap: 80px;
-  justify-content: start;
-  padding: 0px 100px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 30px;
+  padding: 20px 0px;
+}
+
+@media (max-width: 500px) {
+  .wayfinding-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 .project-info-section {
