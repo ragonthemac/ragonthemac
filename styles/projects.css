@@ -19,8 +19,14 @@
   margin-top: -40px;
   aspect-ratio: 9 / 16;
   max-height: 900px;
-  max-width: 20%;
+  max-width: 80%;
+  object-fit: contain;
 }
+
+/* .project-hero-image {
+  width: 100vw;
+  object-fit: contain;
+} */
 
 @media (max-width: 900px) {
   .project-hero-image {
