@@ -119,6 +119,7 @@
   flex-direction: column;
   row-gap: 16px;
   margin-bottom: 60px;
+  flex: 1fr;
 }
 
 .project-tile-title {
