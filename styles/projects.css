@@ -17,7 +17,7 @@
   justify-content: center;
   margin: 0 auto;
   margin-top: -40px;
-  aspect-ratio: 9 / 16;
+  aspect-ratio: 9 / 16 auto;
   max-height: 900px;
   max-width: 80%;
   object-fit: contain;
