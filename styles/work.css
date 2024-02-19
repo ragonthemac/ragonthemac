@@ -140,7 +140,12 @@
 }
 
 .sm-project-grid-wrapper {
-  border-bottom-color: var(--off-black);
-  border-bottom-style: solid;
-  border-bottom-width: 1px;
+  padding-bottom: 90px;
+}
+
+.sm-project-tile-container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+  flex: 1fr;
 }
